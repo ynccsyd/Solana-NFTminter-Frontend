@@ -32,10 +32,10 @@ const Home: NextPage = () => {
           <Center>
 						{ /* If connected, the second view, otherwise the first */ }
               {connected ? <Connected /> : <Disconnected />}
-          </Center>
+                </Center>
           <Spacer />
 
-          <Center></Center>
+          <Center>
             <Box marginBottom={4} color="white">
               <a
                 href="https://twitter.com/_buildspace"
