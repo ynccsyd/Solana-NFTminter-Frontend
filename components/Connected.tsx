@@ -33,7 +33,7 @@ const Connected: FC = () => {
         </VStack>
       </Container>
 
-      <HStack spacing={10}>
+      <HStack spacing={2}>
         <Image src="avatar1.png" alt="" />
         <Image src="avatar2.png" alt="" />
         <Image src="avatar3.png" alt="" />
