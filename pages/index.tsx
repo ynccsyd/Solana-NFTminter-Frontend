@@ -19,6 +19,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+
       <Box
         w="full"
         h="calc(100vh)"
@@ -26,13 +27,13 @@ const Home: NextPage = () => {
         backgroundPosition="center"
       >
         <Stack w="full" h="calc(100vh)" justify="center">
-				
+          { /* NavBar */}
           <NavBar />
+
           <Spacer />
           <Center>
-						{ /* If connected, the second view, otherwise the first */ }
-              {connected ? <Connected /> : <Disconnected />}
-                </Center>
+            {connected ? <Connected /> : <Disconnected />}
+          </Center>
           <Spacer />
 
           <Center>
