@@ -12,9 +12,9 @@ import { ArrowForwardIcon } from "@chakra-ui/icons"
 
 const Connected: FC = () => {
   return (
-    <VStack spacing={20}>
+    <VStack spacing={5}>
       <Container>
-        <VStack spacing={8}>
+        <VStack spacing={4}>
           <Heading
             color="white"
             as="h1"
@@ -33,7 +33,7 @@ const Connected: FC = () => {
         </VStack>
       </Container>
 
-      <HStack spacing={10}>
+      <HStack spacing={3}>
         <Image src="avatar1.png" alt="" />
         <Image src="avatar2.png" alt="" />
         <Image src="avatar3.png" alt="" />
