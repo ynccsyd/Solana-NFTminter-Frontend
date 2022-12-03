@@ -14,7 +14,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Buildoors</title>
+        <title>NFT Minter FrontEnd</title>
         <meta name="The NFT Collection for Buildoors" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
